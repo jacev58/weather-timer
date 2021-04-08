@@ -1,0 +1,10 @@
+[Unit]
+Description=This is a weather script
+
+[Service]
+Type=oneshot
+ExecStart=/home/jace/weather/wthr
+WorkingDirectory=/home/jace/weather
+
+[Install]
+WantedBy=multi-user.target
